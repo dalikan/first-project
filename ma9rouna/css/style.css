@@ -1,0 +1,13 @@
+
+body {
+    background-image:url(http://www.footmercato.net/images/a/antoine-griezmann-lors-de-sa-presentation-dimanche-soir_258748.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .test{
+    color: red;
+}
+a:hover
+{ color: chartreuse;  
+}
