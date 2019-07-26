@@ -1,37 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-        <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>courses</title>
-    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/fr/thumb/a/a1/Logo_FC_Barcelona.svg/1011px-Logo_FC_Barcelona.svg.png">
+    <link rel="icon" href="https://gomycode.tn/images/section2GMCLogo.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </head>
-<body>
-    <nav>
-        <ul> 
-                <li><a href="index.html">home</a> </li>
-                <li><a href="courses.html">courses</a> </li> 
-                <li> <a href="contact.html">contact</a> </li>
-    </ul>
-</nav>
-  <center>
-                <h1>COURSES</h1>
-   
-   <h3>feedback</h3>
 
-   <form >
-       <button>B</button> 
-       <button>I</button> 
-       <button>underligned</button> 
-       <select > <option >20px</option></select>
-       <select > <option >Arital</option></select>
-       <br>
-       <br>
-       <textarea  cols="30" rows="5"></textarea>
-   </form>
-</div>
+<body>
+    <div class="nav">
+        <img src="https://gomycode.tn/images/section2GMCLogo.png" alt="gomycode_logo">
+        <div class="nav-bar">
+
+            <a href="index.html">home</a>
+            <a href="courses.html">courses</a>
+            <a href="contact.html">contact</a>
+
+        </div>
+    </div>
+
+    <div class="because">
+        <center>
+            <h1>COURSES</h1>
+        </center>
+    </div>
+    <center>
+    <div class="chakchouka container ">
+        <div class="row ">
+            <div class="kaskrout col-lg-4 col-sm-12" >
+                <img src="C:\Users\user\Desktop\gomycode\ma9rouna\res\grizou.jpg" alt=""> <button class="bouchon"><a
+                        href="#ex1" rel="modal:open">View More</a></button> </div>
+            <div class="kaskrout col-lg-4 col-sm-12 ">
+                <img src="C:\Users\user\Desktop\gomycode\ma9rouna\res\grizou.jpg" alt=""> <button class="bouchon"><a
+                        href="#ex1" rel="modal:open">View More</a></button> </div>
+            <div class="kaskrout col-lg-4 col-sm-12">
+                <img src="C:\Users\user\Desktop\gomycode\ma9rouna\res\grizou.jpg" alt=""> <button class="bouchon"><a
+                        href="#ex1" rel="modal:open">View More</a></button> </div>
+        </div>
+        <div class="row ">
+            <div class="kaskrout col-lg-4 col-sm-12">
+                <img src="C:\Users\user\Desktop\gomycode\ma9rouna\res\grizou.jpg" alt=""> <button class="bouchon"><a
+                        href="#ex1" rel="modal:open">View More</a></button> </div>
+            <div class="kaskrout col-lg-4 col-sm-12">
+                <img src="C:\Users\user\Desktop\gomycode\ma9rouna\res\grizou.jpg" alt=""> <button class="bouchon"><a
+                        href="#ex1" rel="modal:open">View More</a></button> </div>
+            <div class="kaskrout col-lg-4 col-sm-12">
+                <img src="C:\Users\user\Desktop\gomycode\ma9rouna\res\grizou.jpg" alt=""> <button class="bouchon"><a
+                        href="#ex1" rel="modal:open">View More</a></button> </div>
+        </div>
+        <div class="row ">
+            <div class="kaskrout col-lg-4 col-sm-12">
+                <img src="C:\Users\user\Desktop\gomycode\ma9rouna\res\grizou.jpg" alt=""> <button class="bouchon"><a
+                        href="#ex1" rel="modal:open">View More</a></button> </div>
+            <div class="kaskrout col-lg-4 col-sm-12">
+                <img src="C:\Users\user\Desktop\gomycode\ma9rouna\res\grizou.jpg" alt=""> <button class="bouchon"><a
+                        href="#ex1" rel="modal:open">View More</a></button> </div>
+            <div class="kaskrout col-lg-4 col-sm-12">
+                <img src="C:\Users\user\Desktop\gomycode\ma9rouna\res\grizou.jpg" alt=""> <button class="bouchon"><a
+                        href="#ex1" rel="modal:open">View More</a></button> </div>
+        </div>
+        
+    </div>
 </center>
+
+    <div class="core">
+        <center>
+            <h3>feedback </h3>
+
+            <form>
+                <button onclick="bold1()">B</button>
+                <button onclick="italic1()">I</button>
+                <button onclick="underligned1()">underligned</button>
+                <select id="op" onchange="kadeh()">
+                    <option id="op" value="10px">10px</option>
+                    <option id="op" value="15px">15px</option>
+                    <option id="op" value="20px">20px</option>
+                </select>
+                <select>
+                    <option>Arital</option>
+                </select>
+                <br>
+                <br>
+                <textarea id="bruh" cols="30" rows="5"></textarea>
+            </form>
+
+        </center>
+    </div>
+    <div id="ex1" class="modal">
+        <p> This is a GoMyCode Track. </p>
+        <p> Each track has its own goal. </p>
+        <p> By adopting this track, you chose your own goal.</p>
+        <a href="#" rel="modal:close">Close</a>
+    </div>
+
 </body>
+<script src="js\main.js"></script>
+
 </html>
