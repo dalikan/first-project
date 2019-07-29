@@ -1,0 +1,8 @@
+*{
+    margin: 0px;
+}
+body{
+    background-image: url("resourse/cine/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

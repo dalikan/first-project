@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+}
+#akhtar{
+    display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.n7eb img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    opacity: 0.9;
+    transition: 0.3s ;
+}
+body{
+background-color: chocolate;
+}
+h1{
+    text-align: center
+}
+#ka3ba{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; 
+}
+#hamm{
+    border-radius: 10%;
+    width: 300px;
+    height: 400px
+}
